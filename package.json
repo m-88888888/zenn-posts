@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "new": "zenn new:articles --slug",
+    "preview": "zenn preview",
     "lint": "textlint articles",
     "lint:fix": "textlint articles --fix"
   },
